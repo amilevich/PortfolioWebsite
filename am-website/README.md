@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
+## Quick Start
+Requirements: Node JS
+Clone the repo: git clone https://github.com/amilevich/PortfolioWebsite
+Locate the file folder and run: npm install
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
