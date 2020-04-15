@@ -1,0 +1,44 @@
+<div class="wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" [routerLink]="['/user-profile']">About Me</a>
+                <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse"
+                    data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation" (click)="sidebarToggle()">
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="Connect on LinkedIn" data-placement="bottom"
+                            href="https://www.linkedin.com/in/alexandra-milevich-96019816a/" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                            <p class="d-lg-none">LinkedIn</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom"
+                            href="https://github.com/amilevich" target="_blank">
+                            <i class="fa fa-github"></i>
+                            <p class="d-lg-none">GitHub</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a [routerLink]="['/certs']" class="nav-link" target="_blank"><i
+                                class="nc-icon nc-book-bookmark"></i>Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" target="_blank" class="btn btn-warning btn-round">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+</div>
